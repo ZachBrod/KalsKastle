@@ -1,0 +1,39 @@
+--Github--
+goto http://git-scm.com/download/win
+adds commands to the windows console and also adds the bash console
+recommend use powershell or bash console
+
+git init													initializes a new git project
+git config --global user.name "Zach Broderick" 				sets username for git
+git config --global user.email "zpbroderick@gmail.com" 		sets email for git
+
+git status						gets the current status
+git add index.html 				adds index.html to staging area
+git rm --cached index.html 		removes index.html from staging area
+git add .						adds all files in current directory to staging area
+git commit -m "message" 		commits changes with comments
+
+
+
+--Sublime--
+ctrl + click		multiple cursors 
+ctrl + d 			select next instant of currently selected text 
+
+ctrl + p 			peek (search) 
+peek :40			go to line 40
+peek #foo			search for "foo" 
+
+ctrl + shift + p 	command pallet
+cmdpallet "install" to open the package control: install package directory
+linter				linting program to auto flag or fix stylistic errors in code
+theme				text color themes for sublime
+emmet				webdev too that allows quick html coding using special syntax
+
+
+--Powershell--
+dir 									list directory
+cd "new folder" 						go into folder
+cd ..									go up one directory
+cls										clear screen
+new-item -itemtype file example.txt 	creates an example.txt file
+del example.txt 						deletes example.txt file
