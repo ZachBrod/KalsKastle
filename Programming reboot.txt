@@ -1,7 +1,9 @@
---Github--
+----------
+| Github |
+----------
 goto http://git-scm.com/download/win
 adds commands to the windows console and also adds the bash console
-recommend use powershell or bash console
+recommend bash console or powershell
 
 git init													initializes a new git project
 git config --global user.name "Zach Broderick" 				sets username for git
@@ -14,8 +16,9 @@ git add .						adds all files in current directory to staging area
 git commit -m "message" 		commits changes with comments
 
 
-
---Sublime--
+-----------
+| Sublime |
+-----------
 ctrl + click		multiple cursors 
 ctrl + d 			select next instant of currently selected text 
 
