@@ -1,19 +1,19 @@
 // Determines what level the game starts on. Change this if you want to start on a different level.
-const STARTLEVEL = 1; 
+var STARTLEVEL = 1; 
 
 // If true this will limit the canvas size the game can fit inside of. This is to keep stupid people from playing the game full screen.
-const LIMITCANVASSIZE = true;
+var LIMITCANVASSIZE = true;
 
 // This is the camera "zoom". Makes the game look much better, but is probably too dangerous to be used here.
-const CAMERASCALE = 1;
+var CAMERASCALE = 1;
 
 
 
 
 
 // Dont touch these
-const TSIZE = 24;    // Tile Size
-const HTSIZE = 12;    // Half Tile Size
+var TSIZE = 24;    // Tile Size
+var HTSIZE = 12;    // Half Tile Size
 
 var hideWall = null;
 window.onblur = function() {
@@ -2140,9 +2140,9 @@ When dealing with objects, we have 3 different types we work with:
 
   3) New Instantiations - These are new objects that we create using our constructor function to populate it with data. The key here is that all objects instantiated from the constructor object will all share the same prototype.
 */
-const UNDERFOOT = 0;
-const ATEYE = 1;
-const OVERHEAD = 2;
+var UNDERFOOT = 0;
+var ATEYE = 1;
+var OVERHEAD = 2;
 
 
 

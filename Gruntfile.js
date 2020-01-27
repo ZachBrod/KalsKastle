@@ -16,12 +16,9 @@ module.exports = function(grunt) {
       },
     },
     uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      },
       build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
+        src: 'build/scripts.js',
+        dest: 'build/scripts.min.js'
       }
     }
   });

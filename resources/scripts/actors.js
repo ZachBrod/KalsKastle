@@ -1,6 +1,6 @@
-const UNDERFOOT = 0;
-const ATEYE = 1;
-const OVERHEAD = 2;
+var UNDERFOOT = 0;
+var ATEYE = 1;
+var OVERHEAD = 2;
 
 
 
