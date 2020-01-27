@@ -6,6 +6,7 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    
     concat: {
       build: {
         src: [
@@ -15,12 +16,20 @@ module.exports = function(grunt) {
         dest: 'build/scripts.js',
       },
     },
+
     uglify: {
       build: {
         src: 'build/scripts.js',
         dest: 'build/scripts.min.js'
       }
-    }
+    },
+
+    watch: {
+      scripts: {
+        files: ['resources/scripts/*.js'],
+        tasks: ['default'],
+      },
+    },
   });
 
   // Load the plugins for tasks.
