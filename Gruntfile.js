@@ -18,6 +18,21 @@ module.exports = function(grunt) {
     },
 
     uglify: {
+      options: {
+        mangle: {
+          toplevel: true
+        }
+      },
+      build: {
+        src: 'build/scripts.js',
+        dest: 'build/scripts.min.js'
+      }
+    },
+
+    obfuscator: {
+      options: {
+        // global options for the obfuscator
+      },
       build: {
         src: 'build/scripts.js',
         dest: 'build/scripts.min.js'
@@ -35,6 +50,7 @@ module.exports = function(grunt) {
   // Load the plugins for tasks.
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-obfuscator');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
 

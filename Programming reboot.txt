@@ -32,11 +32,13 @@ linter				linting program to auto flag or fix stylistic errors in code
 theme				text color themes for sublime
 emmet				webdev too that allows quick html coding using special syntax
 
-
---Powershell--
+--------------
+| Powershell |
+--------------
 dir 									list directory
 cd "new folder" 						go into folder
 cd ..									go up one directory
-cls										clear screen
+clear									clear screen
 new-item -itemtype file example.txt 	creates an example.txt file
 del example.txt 						deletes example.txt file
+ctrl + c 								Ends watch task
